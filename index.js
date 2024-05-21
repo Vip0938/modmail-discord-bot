@@ -18,7 +18,7 @@ client.login(process.env.TOKEN);
 const express = require('express')
 const app = express();
 const port = 3000
-app.get('/', (req, res) => res.send('Odd is better.'))
+app.get('/', (req, res) => res.send('Jeremy Bot is really nice'))
 app.listen(port, () =>
 console.log(`Your app is listening a http://localhost:${port}`)
 );
@@ -31,14 +31,14 @@ charModMail.ModMail(client, {
   guildID: "1203112983526379560", //put your guild id here
   categoryID: "1237102064958701638", //put your category id here
   staffRole: "1211400666598346892", //put your staff role id here
-  embedColor: "#2f3136", //change the hax color code if you want
-  anonymousReply: false/true, //make it false if only the staff can reply the user or make it true so anyone can reply.
-  closedTitle: "Your Mod Mail Has Been Closed",
-  closedMessage: "A Staff Member Has Closed Your Mod Mail!",
+  embedColor: "#00FF00", //change the hax color code if you want
+  anonymousReply: false/true, 
+  closedTitle: "Ticket Closed.",
+  closedMessage: "A staff member has closed your ticket.",
   staffOpenedTitle: "User Opened Mod Mail",
-  staffOpenedMessage: "The User Opened A Mod Mail And Is Now Wait For A Reply!",
+  staffOpenedMessage: "A user opened a ticket.",
   userOpenedTitle: "Mod Mail Created",
-  userOpenedMessage: "You Created A Mod Mail Ticket!",
+  userOpenedMessage: "You created a ticket, our support team usually reply at 10AM EST.",
   wrongEmoji: "❎", // if you want you can change but don't change it recommaned.
   rightEmoji: "✅" // if you want you can change but don't change it recommaned.
 })
