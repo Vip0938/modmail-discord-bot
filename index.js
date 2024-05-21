@@ -34,7 +34,7 @@ charModMail.ModMail(client, {
   embedColor: "#2f3136", //change the hax color code if you want
   anonymousReply: false/true, //make it false if only the staff can reply the user or make it true so anyone can reply.
   closedTitle: "Your Mod Mail Has Been Closed",
-  closedMessage: "A Staff Member Has Deleted You Mod Mail!",
+  closedMessage: "A Staff Member Has Closed Your Mod Mail!",
   staffOpenedTitle: "User Opened Mod Mail",
   staffOpenedMessage: "The User Opened A Mod Mail And Is Now Wait For A Reply!",
   userOpenedTitle: "Mod Mail Created",
