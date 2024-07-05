@@ -30,7 +30,7 @@ client.on("ready", () => {
 charModMail.ModMail(client, {
   guildID: "1203112983526379560", //put your guild id here
   categoryID: "1237102064958701638", //put your category id here
-  staffRole: "1211400666598346892", //put your staff role id here
+  staffRole: "1258773884228993035", //put your staff role id here
   embedColor: "#00FF00", //change the hax color code if you want
   anonymousReply: false/true, 
   closedTitle: "Ticket Closed.",
